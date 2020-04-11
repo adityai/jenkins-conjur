@@ -1,0 +1,7 @@
+ - !layer
+
+  - !jenkins-conjur frontend-01
+
+  - !grant
+    role: !layer
+    member: !jenkins-conjur frontend-01
